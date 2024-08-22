@@ -5,7 +5,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha ./test/*",
+    "test:app": "mocha ./test/app.js",
+    "test:user": "mocha ./test/user.js",
     "hello": "echo \"Hello, world!\""
   },
   "keywords": [],
